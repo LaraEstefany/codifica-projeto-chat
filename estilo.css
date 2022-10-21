@@ -117,14 +117,16 @@ li {
     overflow-wrap: break-word;
     word-wrap: break-word;
     word-break: break-word;
+    margin-right: 4vw;
 }
 
 .mensagemUsuario2 {
     background-color: lightgreen;
-    text-align: right;
+    text-align: left;
     width: fit-content;
     align-self: flex-end;
     overflow-wrap: break-word;
     word-wrap: break-word;
     word-break: break-word;
+    margin-left: 4vw;
 }
