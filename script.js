@@ -11,6 +11,7 @@ function manda1() {
     var li = document.createElement("li")
     li.classList.add("mensagemUsuario1")
     li.innerText = mensagemUsuario1
+
     lista.append(li)
 
     campoMensagemUsuario1.value = ""
@@ -25,9 +26,8 @@ function manda2() {
     var li = document.createElement("li")
     li.classList.add("mensagemUsuario2")
     li.innerText = mensagemUsuario2
+
     lista.append(li)
 
     campoMensagemUsuario2.value = ""
 }
-
-// lista.innerHTML = `<div><p>${(chat[contador])}<\p><\div>`
