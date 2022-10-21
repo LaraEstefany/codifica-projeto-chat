@@ -111,9 +111,12 @@ li {
 
 .mensagemUsuario1 {
     background-color: lightblue;
-    text-align: right;
+    text-align: left;
     width: fit-content;
     align-self: flex-start;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
 }
 
 .mensagemUsuario2 {
@@ -121,4 +124,7 @@ li {
     text-align: right;
     width: fit-content;
     align-self: flex-end;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
 }
