@@ -9,7 +9,7 @@ function manda1() {
     chat.push(mensagemUsuario1)
 
     var li = document.createElement("li")
-    li.className
+    li.classList.add("mensagemUsuario1")
     li.innerText = mensagemUsuario1
     lista.append(li)
 
@@ -23,6 +23,7 @@ function manda2() {
     chat.push(mensagemUsuario2)
 
     var li = document.createElement("li")
+    li.classList.add("mensagemUsuario2")
     li.innerText = mensagemUsuario2
     lista.append(li)
 
